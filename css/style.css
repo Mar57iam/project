@@ -1,0 +1,100 @@
+
+.nav-active {
+    padding: 2px 30px;
+    width: 100px;
+    /* align-items: center; */
+    border: 3px solid #009ad8;
+    border-radius: 30px;
+    color: #009ad8;
+}
+
+.nav-link:hover{
+    padding: 2px 30px;
+    width: 100px;
+    align-items: center;
+    border: 3px solid #009ad8;
+    border-radius: 30px;
+    color: #009ad8;
+    transition: 0.010s;
+}
+header{
+  
+    height: 100vh;
+    background-image: url(../images/banner.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#myBtn {
+    top: 210px  ;
+    right: 190px;
+    width: 100px;
+    height: 50px;
+    padding: 20px;
+   color: #2d303d;
+}
+
+.bblack{
+    background-color: #2d303d;
+}
+
+.mainColor{
+    color: #bfc1c8;
+}
+.card-body{
+    background-color: #323544;
+}
+.card-body h2{
+    font-size: 90px;
+}
+.imgIcon{
+    width: 30px;
+}
+.specialCard{
+    background-color:#262936;
+    height: 377px;
+}
+.card3{
+    background-color: #323544;
+
+    height: 377px;
+
+}
+.eInput{
+    background-color: #1e202b;
+    border-color: #1e202b;
+}
+.eInput:focus{
+    background-color: #1e202b;
+}
+.eInput::placeholder{
+    color: #bfc1c8;
+
+}
+
+.sInput::placeholder{
+    color: #bfc1c8;
+
+}
+footer button{
+    bottom: -95px;
+    left: 68%;
+    border-radius: 40%;
+}
+
+.circle-icon {
+    width: 40px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.circle-icon:hover{
+    background-color: #009ad8;
+    transition: 0.5s;
+    
+}
+
+.circle-icon:hover i{
+    color: #ffff !important;
+    
+}
